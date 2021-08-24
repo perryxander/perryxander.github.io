@@ -4,6 +4,7 @@ output:
   html_document:
     toc: true
     toc_float: true
+    code_folding: hide
 ---
 
 # Jeff's awesome site
@@ -42,4 +43,32 @@ Here's a test image:
 ## Link to page within the site
 
 [About me](about.html)
+
+## Can add html directly into document
+
+<img src="images/power_of_words.jpg" style="width:75%">
+
+
+## Quarterly Results {.tabset}
+
+### By Product
+
+This is my first tab and I can do stuff
+
+### By Region
+
+This is my second tab and it does other stuff
+
+## This is a new section
+
+
+and it's really great
+
+
+
+
+
+
+
+
 
